@@ -1,0 +1,30 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+.app {
+    background-image: url("/assets/bg-pattern-dark.png"), url("/assets/bg-pattern.png");
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f4cd57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.hide {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+}

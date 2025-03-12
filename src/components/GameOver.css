@@ -1,0 +1,11 @@
+.gameover {
+    width: 500px;
+    height: 500px;
+    border-radius: 1rem;
+    background-color: yellowgreen;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img {
+    width: 10rem;
+    background: none;
+}
+
+.header p {
+    font-size: 3rem;
+    font-weight: 700;
+}
